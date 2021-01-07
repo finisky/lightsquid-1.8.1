@@ -66,7 +66,7 @@ if ($skipurl eq "") {
 $month=sprintf("%02d",$mon+1);;
 	  
 my $filterdatestart=0;
-my $filterdatestop =timelocal(59,59,23,31,12-1,2020-1900)+1000;
+my $filterdatestop =timelocal(59,59,23,31,11,2100)+1000;
 
 $fToday=1 if ($ARGV[0] eq "today");
 $fToday=1 if ($ARGV[0] eq "yesterday");
